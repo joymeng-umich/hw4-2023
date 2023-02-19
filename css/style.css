@@ -59,7 +59,7 @@ img{
 .about-image, .clients-image, .method-image, .contact-image{
   grid-column: 1 /4;
   max-height: 500px;
-  
+  overflow: auto;
 }
 
   /* Requirement 8 code here -- Do not remove this comment. */
@@ -80,14 +80,12 @@ img{
 }
 
   /* Requirement 9 code here -- Do not remove this comment. */
+
 .text{
   align-self: center;
-  max-height: 40%;
+  max-height: 40vh;
   overflow: scroll;
-
 }
-
-
 
   /*Add the media query here.  Make sure to */
 
