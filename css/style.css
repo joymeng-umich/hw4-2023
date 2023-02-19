@@ -53,13 +53,13 @@ nav a:focus{
   /* Requirement 6 code here -- Do not remove this comment. */
 img{
   width:100%;
+  overflow: auto;
 }
 
   /* Requirement 7 code here -- Do not remove this comment. */
 .about-image, .clients-image, .method-image, .contact-image{
   grid-column: 1 /4;
   max-height: 500px;
-  overflow: auto;
 }
 
   /* Requirement 8 code here -- Do not remove this comment. */
