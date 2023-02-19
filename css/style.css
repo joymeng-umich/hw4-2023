@@ -54,7 +54,7 @@ nav a:focus{
   /* Requirement 6 code here -- Do not remove this comment. */
 img{
   width:100%;
-  overflow: auto;
+  overflow: visible;
 }
 
   /* Requirement 7 code here -- Do not remove this comment. */
