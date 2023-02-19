@@ -54,7 +54,7 @@ nav a:focus{
   /* Requirement 6 code here -- Do not remove this comment. */
 img{
   width:100%;
-  overflow: visible;
+  
 }
 
   /* Requirement 7 code here -- Do not remove this comment. */
@@ -67,17 +67,21 @@ img{
 
 .about, .about-image{
   grid-row: 1;
+  overflow: visible;
 }
 
 .clients, .clients-image{
   grid-row: 2;
+  overflow: visible;
 }
 
 .method, .method-image{
   grid-row: 3;
+  overflow: visible;
 }
 .contact, .contact-image{
   grid-row: 4;
+  overflow: visible;
 }
 
   /* Requirement 9 code here -- Do not remove this comment. */
